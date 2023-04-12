@@ -1,0 +1,11 @@
+body {
+	background: linear-gradient(45deg, #000000, #000000, #090086, #090086);
+	height: 100vh;
+	color: #9005D8;
+}
+table {
+	background-color: #000000;
+	color: #9005D8;
+	border: 1px solid #960CAF;
+}
+

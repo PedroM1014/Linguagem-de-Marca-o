@@ -1,0 +1,193 @@
+body {
+	background: linear-gradient(45deg, #5121EF, #6215A3, #A218EA);
+	color: #FFF;
+	font-family: "Tahoma", "Arial";
+	height: 100vh;
+	text-align: center;
+}
+.box {
+	background: linear-gradient(45deg, #FF0303, #0C1FAE);
+	width: 150px;
+	height: 150px;
+	margin: 1rem;
+	border-radius: 20px;
+	border-radius: 10px;
+}
+.tudo{
+	background-color: white;
+	margin: 0 auto;
+	min-width: 40vw;
+	max-width: fit-content;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.animacao {
+	background-color: #FF0303;
+	width: 150px;
+	height: 150px;
+	margin: 1rem;
+	border-radius: 10px;
+}
+.efeito1 {
+	animation: rodando 2s linear infinite;
+}
+@keyframes rodando{
+	0% {
+		transform: rotate(0deg);
+		transform: scale(0.2);
+		background-color: #0C1FAE;
+	}
+	25% {
+		transform: rotate(45deg);
+		transform: scale(0.5);
+	}
+	50% {
+		transform: rotate(90deg);
+		transform: scale(2);
+		background-color: #FF0303;
+	}
+	75% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transition: rotate(360deg);
+		transform: scale(0.2);
+		background-color: #0C1FAE;
+	}
+}
+.efeito2 {
+	animation: aumentando 2s infinite;
+}
+@keyframes aumentando {
+	0% {
+		transform: scale(1.0);
+	}
+	40% {
+		transform: scale(1.5);
+	}
+	50% {
+		transform: scale(1.3);
+	}
+	80% {
+		transform: scale(2.0);
+	}
+
+	100% {
+		transform: scale(1.0);
+	}
+
+}
+.efeito3 {
+	transition: width 1s 0.5s, height 1s;
+}
+.efeito3:hover {
+	width: 300px;
+	height: 300px;
+}
+.efeito4 {
+	animation: fadeIn 2s infinite;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0.0;
+	}
+	100% {
+		opacity: 1.0;
+	}
+}
+.efeito5 {
+	animation: fadeOut 2s infinite;
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1.0;
+	}
+	100% {
+		opacity: 0.0;
+	}
+}
+.efeito6 {
+	animation: swing 2s infinite;
+}
+@keyframes swing {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(45deg)
+	}
+	50% {
+		transform: rotate(15deg)
+	}
+	75% {
+		transform: rotate(135deg)
+	}
+	100% {
+		transform: rotate(0deg)
+	}
+}
+.efeito7 {
+	animation: posX 2s infinite;
+}
+@keyframes posX {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(-200px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+.efeito8 {
+	animation: posY 2s infinite;
+}
+@keyframes posY {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(200px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+.efeito9 {
+	animation: pos 2s infinite;
+}
+@keyframes pos {
+	0% {
+		transform: translateY(0px) translateX(0px);
+	}
+	25% {
+		transform: translateX(0px) translateY(700px);
+	}
+	50% {
+		transform: translatex(-1500px) translateY(700px);
+	}
+	75% {
+		transform: translateX(-1500px) translateY(0px);
+	}
+	100% {
+		transform: translateX(0px) translateY(0px);
+	}
+} 
+.divu {
+	animation: swing 2s infinite;
+}
+@keyframes swing {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(360deg)
+	}
+	100% {
+		transform: rotate(0deg)
+	}
+}

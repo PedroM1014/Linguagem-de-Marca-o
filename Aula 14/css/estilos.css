@@ -1,0 +1,26 @@
+body {
+	display: grid;
+	grid-template-areas:
+	"header header header"
+	"aside main main"
+	"footer footer footer";
+	grid-template-columns: 300px auto auto;
+	grid-template-rows: 100px 800px 50px;
+	grid-gap: 1rem;
+}
+.o-header {
+	grid-area: header;
+	background: linear-gradient(90deg, #9E00C0, #5D0DB8, #251BF2);
+}
+.o-aside {
+	grid-area: aside;
+	background: linear-gradient(90deg, #2EE825, #79E728, #E7FD2A);
+}
+.o-main {
+	grid-area: main;
+	background: linear-gradient(90deg, #5C1BF1, #E20D0D, #BE1313);
+}
+.o-footer {
+	grid-area: footer;
+	background: linear-gradient(90deg, #F63240, #6D00AB, #251BF2);
+}

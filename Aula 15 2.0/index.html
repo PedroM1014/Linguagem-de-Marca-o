@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+<form>
+	<h1>Cadastro de Pessoa</h1>
+	<hr>
+	<div class="div1 box">
+		<label>Nome</label>
+		<input type="text" name="txt-nome">
+	</div>
+	<div class="div2 box">
+		<label>Idade</label>
+		<input type="number" name="txt-idade">
+	</div>
+	<div class="div3 box">
+		<label>Descrição</label>
+		<textarea placeholder="Informe um texto sobre você!"></textarea>
+	</div>
+	<div class="div4 box">
+		<label>Gênero</label>
+		<select name="genero">
+			<option hidden></option>
+			<option value="Masculino">Masculino</option>
+			<option value="Feminino">Feminino</option>
+			<option value="Bi-Gendered">Bi-Gendered</option>
+			<option value="Cross-Dresser">Cross-Dresser</option>
+			<option value="Drag-King">Drag-King</option>
+			<option value="Drag-Queen">Drag-Queen</option>
+			<option value="Femme Queen">Femme Queen</option>
+			<option value="Female-to-Male">Female-to-Male</option>
+			<option value="FTM">FTM</option>
+			<option value="Gender Bender">Gender Bender</option>
+			<option value="Genderqueer">Genderqueer</option>
+			<option value="Male-To-Female">Male-To-Female</option>
+			<option value="MTF">MTF</option>
+			<option value="Non-Op">Non-Op</option>
+			<option value="Hijra">Hijra</option>
+			<option value="Pangedern">Pangedern</option>
+			<option value="Transexual/Transsexual">Transexual/Transsexual</option>
+			<option value="Trans Person">Trans Person</option>
+			<option value="Butch">Butch</option>
+			<option value="Two-Spirit">Two-Spirit</option>
+			<option value="Trans">Trans</option>
+			<option value="Agender">Agender</option>
+			<option value="Third Sex">Third Sex</option>
+			<option value="Gender Fluid">Gender Fluid</option>
+			<option value="Non-Binary Transgender">Non-Binary Transgender</option>
+			<option value="Androgyne">Androgyne</option>
+			<option value="Gender-Gifted">Gender-Gifted</option>
+			<option value="Gender Bender">Gender Bender</option>
+			<option value="Femme">Femme</option>
+			<option value="Person of Transgender Experience">Person of Transgender Experience</option>Femme
+			<option value="Androgynous">Androgynous</option>Femme
+			<option value="Transformer">Transformer</option>
+		</select>
+	</div>
+	<div class="div5 box">
+		<label>Idioma</label><br>
+		<input type="checkbox" name="idioma" value="inglês">
+		<label>Inglês</label>
+		<input type="checkbox" name="idioma" value="Espanhol">
+		<label>Espanhol</label>
+		<input type="checkbox" name="idioma" value="Angolano">
+		<label>Angolano</label>
+	</div>
+	<div class="div6 box">
+		<label>Preferências de mídia</label>
+		<input type="radio" name="midia" value="Filmes">
+		<label>Filmes</label><br>
+		<input type="radio" name="midia" value="TV">
+		<label>TV</label><br>
+	</div>
+	<div class="div7 box">
+		<label>Enviar foto:</label>
+		<input type="file" name="foto">
+	</div>
+	<div class="div8 box">
+		<br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Limpar</button>
+	</div>
+</form>
+
+</body>
+</html>
